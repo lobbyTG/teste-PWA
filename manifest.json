@@ -1,0 +1,13 @@
+{
+    "name": "Lobby",
+    "short_name": "Lobby",
+    "start_url": "/",
+    "display": "standalone",
+    "theme_color": "#000",
+    "background_color": "#fff",
+    "icons": [{
+            "src": "./assets/img/Lobby2.png",
+            "sizes": "512x512",
+            "type": "image/png"
+    }]
+}

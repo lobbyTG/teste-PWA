@@ -1,0 +1,86 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+:root{
+    --primary-color: #FF7200;
+    --gray-color: #E5E0E0;
+    --white-color: #FFFFFF;
+    --black-color: #000;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    background-color: var(--gray-color);
+    /* esconde o que passar do tamanho normal da página */
+    overflow-x: hidden;
+    color: var(--black-color);
+    font-family: 'Roboto', sans-serif;
+    /* height: 100vh; */
+}
+
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: 35px 0 25px 0; */
+    height: 20vh;
+    width: 100%;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--white-color);
+    border-radius: 30px 30px 0 0;
+    height: 74vh;
+    margin: auto;
+    max-width: 50rem;
+    z-index: -1;
+    padding: 40px 0 0 0;
+}
+
+input{
+    background-color: var(--gray-color);
+    width: 308px;
+    height: 30px;
+    border-radius: 50px;
+    margin-top: 10px;
+    border: none;
+    padding: 0 10px;
+}
+
+.div-input{
+    margin-top: 40px;
+}
+
+.div-btn-login {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.div-btn-login a{
+    color: var(--primary-color);
+}
+
+.btn-login{
+    width: 17.31rem;
+    height: 2.18rem;
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    border-radius: 50px;
+    border: none;
+    font-size: 16px;
+    margin-bottom: 50px;
+}
