@@ -3,6 +3,7 @@
 $('#phonemask').mask('(00) 00000-0000')
 
 const cadastro = () =>{
-    location.href = "./pages/menu/index.html";
+    // ERRO DE ROTA AQUI
+    location.href = "../menu/index.html";
     alert("Cadastro realizado")
 }
