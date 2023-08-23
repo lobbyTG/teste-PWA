@@ -1,7 +1,7 @@
 {
     "name": "Lobby",
     "short_name": "Lobby",
-    "start_url": "../index.html",
+    "start_url": "https://lobbytg.github.io/teste-PWA/",
     "display": "standalone",
     "theme_color": "#000",
     "background_color": "#fff",
