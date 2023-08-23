@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="../../assets/img/Lobby2.png" type="image/x-icon">
+
+    <title>Cadastro | Lobby</title>
+</head>
+<body>
+    <div class='main-div'>
+
+        <div class="logo">
+            <img src="../../assets/icons/LobbyLogo.png" alt="">
+        </div>
+        
+        
+        <form action="">
+            <div class="div-input">
+                <label for="email">Email:</label><br/>
+                <input name="senha" type="email"/>
+            </div>
+            <div class="div-input">
+                <label for="senha">Senha:</label><br/>
+                <input name="senha" type="password"/>
+            </div>
+            <div class="div-input">
+                <label for="telefone">Telefone:</label><br/>
+                <input id="phonemask" name="telefone" type="text"/>
+            </div>
+            <div class="div-btn-login">
+                <button class="btn-login" onclick="cadastro()">Cadastrar</button>
+                <p>Registre-se ou caso ja tenha um cadastro faça <a href="../../index.html">login</a></p>
+            </div>
+        </form>
+       
+        
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
+    <script src="./index.js"></script>
+</body>
+</html>
