@@ -1,6 +1,6 @@
 
 
 const teste = () =>{
-    location.href = "/pages/menu/index.html";
+    location.href = "teste-PWA/pages/menu/index.html";
     alert(`Login feito com sucesso!!!`);
 }
