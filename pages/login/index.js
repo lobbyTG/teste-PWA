@@ -10,11 +10,12 @@ closeModal.onclick = function(){
     modal.close()
 }
 
-const urlAD = ["/assets/img/agasalho.jpg", "/assets/img/doarSangue.png","/assets/img//pets.jpg"]
+const urlAD = ["/teste-PWA/assets/img/agasalho.jpg", "/teste-PWA/assets/img/doarSangue.png","/teste-PWA/assets/img/pets.jpg"]
 
 const loadModal = () =>{
     const num = Math.floor(Math.random() * 3)
     modalAD(urlAD[num])
+    console.log(urlAD[num])
     modal.showModal()
 }
 
