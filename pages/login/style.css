@@ -20,7 +20,8 @@ dialog{
     width: 85%;
     height: 50vh;
     margin: auto;
-    background-image: url("../../assets/img/doarSangue.png");
+    /* background-image: url("../../assets/img/doarSangue.png"); */
+    background-image: url("../../assets/img/agasalho.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;

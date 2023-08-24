@@ -22,4 +22,12 @@ const teste = () =>{
 }
 
 
+const modalAD = (url) =>{
+    document.querySelector("dialog").style.backgroundImage = `url(${url})`
+    document.querySelector("dialog").style.backgroundSize = "cover";
+    document.querySelector("dialog").style.backgroundRepeat = "no-repeat";
+    document.querySelector("dialog").style.backgroundPosition = "center";
+}
+
+
 
