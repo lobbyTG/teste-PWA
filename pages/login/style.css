@@ -12,6 +12,36 @@
     --black-color: #000;
 }
 
+dialog::backdrop{
+    background-color: rgba(0 0 0 / .5);
+}
+
+dialog{
+    width: 85%;
+    height: 50vh;
+    margin: auto;
+    background-image: url("../../assets/img/doarSangue.png");
+    background-size: cover;
+
+    border: none; 
+    border-radius: 30px;
+    box-shadow:  0 0 1rem rgba( 0 0 0 / .3);
+
+}
+
+dialog button{
+    position: absolute;
+    right: 20px;
+    top: 30px;
+    font-size: 15px;
+}
+
+/* dialog img{
+    width: 100%;
+    height: auto;
+    position: absolute;
+} */
+
 a{
     text-decoration: none;
 }
