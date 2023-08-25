@@ -32,11 +32,11 @@ dialog{
 
 }
 
-dialog button{
+.closeModal{
     position: absolute;
     right: 20px;
-    top: 30px;
-    font-size: 15px;
+    top: 20px;
+    width: 2rem;
 }
 
 /* dialog img{
