@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+}
+
+.div-cam{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aquamarine;
+    margin: 10px;
+}
+
+video{
+    background-color: black;
+    width: 80%;
+    height: auto;
+}
+
+canvas{
+    background-color: black;
+    width: 70%;
+    height: auto;
+    margin-top: 20px;
+}
+
+button{
+    border: none;
+    border-radius: 10px;
+    width: 6rem;
+    height: 2rem;
+    background-color: black;
+    color: white;
+    margin-left: 10px;
+}
