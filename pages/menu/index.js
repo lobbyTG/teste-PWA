@@ -6,5 +6,4 @@ const openMenu = () =>{
 
 const closeMenu = () =>{
     document.getElementById("myNav").style.width = '0%';
-
 }
